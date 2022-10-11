@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Practice 9</title>
+</head>
+<body>
+    <div id="boxChat" class="chat-box">
+        <header class="chat-box-header">
+          <div class="chat-box-header-title">
+            Web Socket Chat
+          </div>
+          <div class="chat-box-header-options">
+            <span><i class="fas fa-cog"></i></span>
+          </div>
+        </header>
+
+        <div class="chat-box-chat">
+        </div>
+        <form class="chat-box-inputarea">
+          <input type="text" class="chat-box-input" placeholder="Enter your message..."/>
+          <button type="submit" class="chat-box-send-btn">Send</button>
+        </form>
+    </div>
+    <button onclick="displayChat()" class="chat-btn">Chat!</button>
+    <script src="app.js"></script>
+</body>
